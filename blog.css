@@ -1,0 +1,130 @@
+html,body{
+	padding:0;
+	margin:0;
+
+}
+
+h1 {
+	padding-top:3vw;
+	padding-right:18%;
+	padding-left:18%;
+	/* padding-right: 25vw */
+font-family: 'Raleway', sans-serif;
+font-size:5vw;
+font-weight:300;
+text-align: center;
+}
+
+hr{
+  position:relative;
+  bottom:1.5vw;
+  padding-top:0;
+  margin-top:0;
+	display: block;
+    margin-left:20%;
+	margin-right:19%;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+.ppl{
+
+  width: 100%;
+  padding-bottom: 75%;
+  position:relative;
+
+}
+
+img{
+height:auto;
+  width:60vw;
+  position:absolute;
+  left:20vw;
+ box-shadow: 5px 5px 10px grey;
+  border-style:solid;
+  border-width:1px;
+  border-color:#aaac;
+  border-radius: 10px;
+
+}
+
+.slide1{
+  top:20vw;
+}
+
+.slide2{
+  top:58vw;
+}
+
+.slide3{
+  top:96vw;
+}
+
+.slide4{
+  top:134vw;
+}
+
+.slide5{
+  top:172vw;
+}
+
+
+.pagination
+{
+  position:absolute;
+  top:212vw;
+  left:42vw;
+  margin-bottom:10vw;
+  
+}
+
+/*.pagination2
+{
+  position:absolute;
+  top:19.5vw;
+  left:42vw;
+  margin-bottom:10vw;
+  
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  
+  p   {
+    font-size:10px; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+  
+  h1 {
+    padding-top:20vw;
+  font-size:8vw;
+  }
+
+  img{
+    margin-top:20vw;
+
+  }
+  
+  
+}

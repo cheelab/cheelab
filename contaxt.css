@@ -1,0 +1,141 @@
+iframe{
+position:absolute;
+  left:27vw;
+  top:20vw;
+
+}
+
+.pic{
+
+  width: 100%;
+  padding-bottom: 75%;
+  position:relative;
+
+
+}
+
+/*.spon{
+  position:absolute;
+  left:42vw;
+  font-size:2.5vw;
+  top:107vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  
+}*/
+
+h3{
+ /* font-size:2.2em;*/
+  position:absolute;
+  left:55vw;
+  top:19vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight:200;
+}
+
+p{
+  position:absolute;
+  left:55vw;
+  top:23vw;
+  font-size:1vw;
+
+font-family: 'Roboto', sans-serif;
+
+  
+}
+
+h3 a:hover{
+  cursor: pointer;
+text-decoration:underline !important ;
+color:#e31936;;
+}
+
+h3 a:visited{
+	text-decoration:underline !important;
+}
+
+h3 a:link{
+text-decoration:none;
+color:black;
+
+}
+
+/*.new{
+  position:absolute;
+  left:30vw;
+  top:55vw;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+}
+
+.house{
+  position:absolute;
+  width:40vw;
+  height:auto;
+  left:30vw;
+  top:65vw;
+}*/
+
+.neuro{
+  
+  display:inline;
+  position:absolute;
+  left:55vw;
+  font-family: 'Roboto', sans-serif;
+  /*top:115vw;*/
+  font-weight:500;
+  font-size: 1.1vw;
+  top:41vw;
+  
+}
+
+.h3-pos{
+  font-size:2vw;
+left:40vw;
+   top:54.5vw;
+}
+
+.positions{
+  text-align:justify;
+  left:20vw;
+   top:50.5vw;
+  padding:10vw;
+}
+
+.pos{
+  display:block;
+width:35vw;
+height:auto;
+  background-color:red;
+}
+
+.pan{
+  display:inline;
+  position:absolute;
+  left:55vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+ font-size:1.1vw;
+  /*top:118vw;*/
+  top:42.5vw;
+}
+
+.ig{
+  position:absolute;
+  left:45vw;
+  font-size:2.2vw;
+  padding-bottom:10vw;
+  /*top:133vw;*/
+  top:85vw;
+  font-family: 'Roboto', sans-serif;
+  font-weight:200;
+}
+
+.igpic{
+  position:absolute;
+  left:50vw;
+  /*top:138vw;*/
+  top:90vw;
+  width:2vw;
+  height:auto;
+}
