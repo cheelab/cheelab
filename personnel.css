@@ -1,0 +1,832 @@
+
+html,body{
+
+padding:0;
+margin:0;
+
+}
+
+
+
+h1  {
+	font-weight:300;
+	font-family: 'Raleway', sans-serif;
+	font-size:6vw;
+  padding-top:4vw;
+	z-index:1;
+	text-align: center;
+	}
+
+h3  {
+  
+  padding-bottom: 1vw;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.3vw;
+	
+	text-align: center;
+    z-index:1;
+	}
+
+hr{
+  
+	display: block;
+    margin-left:18vw;
+	margin-right:15vw;
+    border-style: inset;
+    border-width: 1px;
+z-index:1;
+}
+
+.ppl {
+  width: 100%;
+  padding-bottom: 75%;
+  position:relative;
+  
+}
+
+.card{
+  position:absolute;
+  background-color: #ededed;
+  font-family: 'Roboto', sans-serif;
+  height:27.35vw;
+  width:20vw;
+  box-shadow: 5px 5px 10px grey;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  z-index:0;
+
+}
+
+.material-icons{
+  cursor:pointer;
+}
+
+.info{
+  position:absolute;
+  text-align:center;
+  background-color:#ededed;
+  height:7vw;
+  width:20vw;
+  box-shadow: 5px 5px 10px grey;
+  font-family: 'Roboto', sans-serif;
+  z-index:0;
+  
+}
+
+
+
+
+
+
+p{  
+  font-size:0.8vw;
+  position:absolute;
+  left:3.8vw;
+  bottom:0.7vw;
+}
+
+strong{
+font-size:1vw;
+
+}
+
+/*---------------------------ROW 1 -------------------------------*/
+
+
+
+.show{
+ top:1vw; 
+}
+
+.pl{
+
+left:5.5vw;
+bottom:1.5vw;
+}
+
+.pm{
+left:3.5vw;
+  bottom:1vw;
+}
+
+.pr{
+  top:1.5vw;
+bottom:4vw;
+  left:6vw;
+}
+
+#card-left{
+  top:75vw;
+  left:18%;
+  background-image: url("https://i.imgur.com/SFkd6YS.jpg");
+  /*background-image: url("https://i.imgur.com/beAlJSh.jpg");  */
+}
+
+#card-left:hover{
+  background-image: url("https://i.imgur.com/JQIiID2.jpg");
+ /*background-image: url("https://i.imgur.com/ypUjSbX.jpg");*/
+  
+  
+}
+
+#info-left{
+  top:101vw;
+  left:17.8vw;
+}
+
+#card-middle{
+top:75vw;
+  left:42vw;
+  background-image: url("https://i.imgur.com/6xdTUDz.jpg");
+  /*
+  background-image: url("https://i.imgur.com/jd3Ad2H.jpg");
+  */
+}
+
+#card-middle:hover{
+ /*background-image: url("https://i.imgur.com/nhIx5b0.jpg"); */
+  background-image: url("https://i.imgur.com/uZ8325B.jpg"); 
+}
+
+#info-middle{
+  top:101vw;
+  left:42vw;
+}
+
+#card-right{
+  top:75vw;
+  left:65vw;
+  background-image: url("https://i.imgur.com/Yaz3uDR.jpg"); 
+  /*background-image: url("https://i.imgur.com/rhH4SbM.jpg");*/
+}
+
+#card-right:hover{
+  background-image: url("https://i.imgur.com/rBqCNji.jpg"); 
+ /*background-image: url("https://i.imgur.com/2N46zXN.jpg"); */
+}
+
+#info-right{
+  top:101vw;
+  left:65vw;
+}
+
+
+
+/*-------------------------ROW 2----------------------------*/
+
+
+.pl2{
+
+right:4vw;
+top:1vw;
+}
+
+.pm2{
+  top:1vw;
+left:7vw;
+  
+}
+
+.pr2{
+bottom:1.5vw;
+left:5vw;
+}
+
+#card-left2{
+  top:115vw;
+  left:18%;
+  /*background-image: url("https://i.imgur.com/SFkd6YS.jpg");*/
+  background-image: url("https://i.imgur.com/jd3Ad2H.jpg")
+}
+
+#card-left2:hover {
+ /*background-image: url("https://i.imgur.com/JQIiID2.jpg");*/
+  background-image: url("https://i.imgur.com/nhIx5b0.jpg"); 
+  
+}
+
+#info-left2{
+  top:140.5vw;
+  left:17.8vw;
+}
+
+#card-middle2{
+top:115vw;
+  left:42vw;
+ /* background-image: url("https://i.imgur.com/uOMMRHd.jpg");*/
+  background-image: url("https://i.imgur.com/ZkLDc9l.jpg");
+}
+
+#card-middle2:hover{
+ /*background-image: url("https://i.imgur.com/MhuwL4e.jpg"); */
+  background-image: url("https://i.imgur.com/SPytLv9.jpg"); 
+}
+
+#info-middle2{
+  top:140.5vw;
+  left:42vw;
+}
+
+#card-right2{
+  top:115vw;
+  left:65vw;
+  background-image: url("https://i.imgur.com/rhH4SbM.jpg");
+  /*background-image: url("https://i.imgur.com/6xdTUDz.jpg");*/
+}
+
+#card-right2:hover{
+ /*background-image: url("https://i.imgur.com/uZ8325B.jpg"); */
+  background-image: url("https://i.imgur.com/2N46zXN.jpg"); 
+}
+
+#info-right2{
+  top:140.5vw;
+  left:65vw;
+}
+
+
+
+
+/*-------------------------ROW 3----------------------------*/
+
+
+.pl3{
+right:5vw;
+
+top:1vw;
+}
+
+.pm3{
+  top:1vw;
+left:4.5vw;
+  
+}
+
+.pr3{
+bottom:1vw;
+left:6vw;
+}
+
+
+#card-left3{
+  
+top:154vw;
+  left:18vw;
+  background-image: url("https://i.imgur.com/uOMMRHd.jpg");
+  /*background-image: url("https://i.imgur.com/pOZziwH.jpg");  */
+}
+
+#card-left3:hover{
+  background-image: url("https://i.imgur.com/MhuwL4e.jpg");
+ /*background-image: url("https://i.imgur.com/kUKZwVA.jpg");*/
+  
+}
+
+#info-left3{
+  top:180.5vw;
+  left:18vw;
+}
+
+
+#card-middle3{
+  top:154vw;
+  left:42vw;
+  background-image: url("https://i.imgur.com/1YiMqSs.jpg")
+}
+
+#card-middle3:hover{
+ background-image: url("https://i.imgur.com/60uGrob.jpg"); 
+}
+
+#info-middle3{
+  top:180.5vw;
+  left:42vw;
+}
+
+
+#card-right3{
+  top:154vw;
+  left:65vw;
+   background-image: url("https://i.imgur.com/WsJ5EB3.jpg");
+  /*background-image: url("https://i.imgur.com/ZkLDc9l.jpg");*/
+}
+
+#card-right3:hover{
+  background-image: url("https://i.imgur.com/s0j8Nx4.jpg"); 
+ /*background-image: url("https://i.imgur.com/SPytLv9.jpg"); */
+}
+
+#info-right3{
+  top:180.5vw;
+  left:65vw;
+}
+
+
+
+
+/*-------------------------ROW 4----------------------------*/
+
+.pl4{
+
+left:5vw;
+top:1vw;
+}
+
+.pm4{
+  top:1.5vw;
+left:4vw;
+  
+}
+
+.pr4{
+bottom:1vw;
+left:5.5vw;
+}
+
+
+#card-left4{
+  
+top:194vw;
+  left:18vw;
+  margin-bottom:20vw;
+  /*background-image: url("https://i.imgur.com/RSwKnut.jpg");  */
+  background-image: url("https://i.imgur.com/beAlJSh.jpg"); 
+}
+
+#card-left4:hover{
+ /*background-image: url("https://i.imgur.com/ZFkTHO7.jpg");*/
+  background-image: url("https://i.imgur.com/ypUjSbX.jpg");
+  
+}
+
+#info-left4{
+  top:220.5vw;
+  left:18vw;
+}
+
+
+#card-middle4{
+  top:194vw;
+  left:42vw;
+  /*background-image: url("https://i.imgur.com/CJODwwH.jpg")*/
+  background-image: url("https://i.imgur.com/RSwKnut.jpg"); 
+}
+
+#card-middle4:hover{
+  margin-bottom:20vw;
+ /*background-image: url("https://i.imgur.com/D4kSRjw.jpg"); */
+  background-image: url("https://i.imgur.com/ZFkTHO7.jpg");
+}
+
+#info-middle4{
+  top:220.5vw;
+  left:42vw;
+}
+
+
+#card-right4{
+  top:194vw;
+  left:65vw;
+  margin-bottom:20vw;
+ /* background-image: url("https://i.imgur.com/WsJ5EB3.jpg");*/
+  background-image: url("https://i.imgur.com/pOZziwH.jpg"); 
+}
+
+#card-right4:hover{
+  background-image: url("https://i.imgur.com/kUKZwVA.jpg");
+/* background-image: url("https://i.imgur.com/s0j8Nx4.jpg"); */
+}
+
+#info-right4{
+  top:220.5vw;
+  left:65vw;
+}
+
+
+/*----------------------5TH ROW-------------------------------*/
+  
+  
+  
+  
+#card-middle5{
+    
+top:35vw;  
+  left:42vw;
+ /*background-image: url("https://i.imgur.com/Yaz3uDR.jpg"); */
+  /*margin-bottom:20vw;*/
+  background-image: url("https://i.imgur.com/CJODwwH.jpg")
+}
+
+#card-middle5:hover{
+  background-image: url("https://i.imgur.com/D4kSRjw.jpg");
+ /*background-image: url("https://i.imgur.com/rBqCNji.jpg"); */
+}
+
+#info-middle5{
+
+  top:61vw;
+  left:42vw;
+}
+
+.pm5{
+    
+  left:5.5vw;
+  
+  }
+  
+
+
+/*.picture-left{
+ background-image: url("http://i1064.photobucket.com/albums/u365/cheelab/MelissaChee1c_zpswzkgqkqu.jpg");
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-position: ;
+
+	height:100%;
+	width:100%;
+  
+}
+*/
+
+
+.info-middle{
+  position:absolute;
+  top:85%;
+  text-align:center;
+  background-color:#ededed;
+  height:25%;
+  width:100%;
+  box-shadow: 5px 5px 10px grey;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#arrow-melissa{
+  width:1vw;
+  height:1vw;
+cursor: pointer;
+position:absolute;
+top:0.5vw;
+right:9vw;
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+  
+h1  {
+    
+	font-weight:300;
+	font-family: 'Raleway', sans-serif;
+	font-size:12vw;
+  padding-top:15vw;
+	z-index:1;
+	text-align: center;
+	}
+
+h3  {
+  
+  padding-bottom: 5vw;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	font-size:3.3vw;
+	
+	text-align: center;
+    z-index:1;
+	}
+
+hr{
+  
+	display: block;
+    margin-left:8vw;
+	margin-right:5vw;
+    border-style: inset;
+    border-width: 1px;
+z-index:2;
+}
+  
+.card{
+  position:absolute;
+  background-color: #ededed;
+  font-family: 'Roboto', sans-serif;
+  height:54vw;
+  width:40vw;
+  box-shadow: 5px 5px 10px grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+z-index:0;
+
+}
+ 
+  
+.info{
+  
+  position:absolute;
+  text-align:center;
+  background-color:#ededed;
+  height:17vw;
+  width:40vw;
+  box-shadow: 5px 5px 10px grey;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+strong{
+  padding-top:0;
+  font-size:2.5vw;
+  
+  }
+  
+  
+p{  
+  font-size:1.5vw;
+  
+  
+}
+  
+#card-left{
+  top:65vw;
+  left:5vw;
+   
+}
+  
+#info-left{
+  top:119vw;
+  left:5vw;
+}
+  
+.pl{
+  bottom:2vw;
+    left:1.5vw;
+  right:0vw;
+  }
+  
+ #arrow-melissa{
+  width:1vw;
+  height:1vw;
+cursor: pointer;
+position:absolute;
+top:0.5vw;
+right:22.5vw;
+
+
+}
+  
+#card-middle{
+  top:65vw;
+  left:54vw;
+  
+}
+
+#info-middle{
+  top:119vw;
+  left:54vw;
+}
+  
+.pm{
+  left:3vw;
+  bottom:3vw;
+  }
+    
+#card-right{
+  top:150vw;  
+  left:5vw;
+  
+}
+
+#info-right{
+  top:204vw;
+  left:5vw;
+}
+  
+.pr{
+  
+    left:8vw;
+  top:5vw;
+  }
+
+  /*//////// ROW2   ///////////////////////////////*/
+  
+#card-left2{
+  
+  top:150vw;
+  left:54vw;
+}
+  
+#info-left2{
+  top:204vw;
+  left:54vw;
+}
+  
+.pl2{
+  top:4vw;
+  left:3vw;
+  }
+  
+#card-middle2{
+top:235vw;  
+  left:5vw;
+  
+}
+
+#info-middle2{
+  
+  top:289vw;
+  left:5vw;
+}
+  
+.pm2{
+    
+  left:7vw;
+  top:3.5vw;
+  }
+  
+#card-right2{
+    
+  top:235vw;  
+  left:54vw;
+  
+}
+
+#info-right2{
+
+  top:289vw;
+  left:54vw;
+}
+  
+.pr2{
+  
+    left:9vw;
+  bottom:3.5vw;
+  }
+
+  
+  
+/*////////////ROW3////////////*/
+  
+  
+#card-left3{
+  top:319vw;
+  left:7vw;
+   
+}
+  
+#info-left3{
+  top:373vw;
+  left:7vw;
+}
+  
+.pl3{
+  top:5vw;
+  left:5vw;
+  }
+  
+#arrow-melissa{
+  width:1vw;
+  height:1vw;
+cursor: pointer;
+position:absolute;
+top:0.5vw;
+right:22.5vw;
+
+
+}
+  
+#card-middle3{
+  top:319vw;
+  left:54vw;
+  
+}
+
+#info-middle3{
+  top:373vw;
+  left:54vw;
+}
+  
+.pm3{
+  left:4vw;
+ top:5vw;
+  }
+  
+#card-right3{
+  top:404vw;
+    left:7vw;
+  
+  }
+  
+#info-right3{
+  top:457vw;
+  left:7vw;
+}
+  
+.pr3{
+  
+    left:10vw;
+  bottom:2.5vw;
+  }
+
+  
+  
+ /*/////ROW4//////*/
+  
+#card-left4{
+  
+  top:404vw;
+  left:54vw;
+}
+
+#info-left4{
+  top:457vw;
+  left:54vw;
+}
+  
+.pl4{
+  top:4vw;
+  left:7.5vw;
+  }
+  
+#card-middle4{
+    
+top:487vw;  
+  left:5vw;
+  
+}
+
+#info-middle4{
+  
+  top:541vw;
+  left:5vw;
+}
+
+.pm4{
+    
+  left:4vw;
+  top:4.5vw;
+  }
+  
+  
+#card-right4{
+    
+  top:487vw;  
+  left:54vw;
+  
+}
+
+#info-right4{
+
+  top:541vw;
+  left:54vw;
+}
+  
+.pr4{
+  
+    left:7vw;
+  bottom:3.5vw;
+  }
+  
+  
+
+  /*////5TH ROW///////*/
+  
+  
+  
+  
+#card-middle5{
+    
+top:570vw;  
+  left:5vw;
+  
+}
+
+#info-middle5{
+  
+  top:624vw;
+  left:5vw;
+}
+  
+.pm5{
+    
+  left:7vw;
+  top:4.5vw;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

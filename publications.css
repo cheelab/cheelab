@@ -1,0 +1,86 @@
+html,body{
+	padding:0;
+  padding-top:2.2vw;
+	margin:0;
+
+}
+
+h1 {
+  
+
+	
+  
+	/* padding-right: 25vw */
+font-family: 'Raleway', sans-serif;
+font-size:5vw;
+font-weight:300;
+text-align: center;
+}
+
+
+ p a:hover{
+  cursor: pointer;
+text-decoration:underline !important ;
+   
+color:#e31936 !important;
+}
+
+p a:visited{
+	text-decoration:underline !important;
+}
+
+p a:link{
+text-decoration:none;
+color:black;
+
+}
+
+hr{
+	display: block;
+    margin-left:18%;
+	margin-right:18%;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
+p{
+
+font-size:1.1vw;
+
+font-family: 'Roboto', sans-serif;
+}
+
+
+#pub{
+	padding-left: 18%;
+  padding-right:18%;
+	padding-top: 2%;
+	text-align:center;
+
+}
+
+#text{
+	display: inline-block;
+	text-align : justify;
+}
+
+.pagination{
+  position:absolute;
+  padding-bottom: 5vw;
+left:47vw;
+}
+
+@media screen and (max-width: 800px) {
+  
+  p   {
+    font-size:10px; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+  
+  h1 {
+   padding-top:25vw; 
+  font-size:8vw;
+  }
+  
+  
+}
