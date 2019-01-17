@@ -74,6 +74,7 @@ h3  {
 }
 
 .comb{
+  z-index:4;
 height:14.7vw;
   width:14.7vw;
 }
@@ -220,13 +221,14 @@ z-index:6;
 }*/
 .partners-container{
 position:absolute;
-top:75vw;
-  left:12vw;
+top:70vw;
+  left:16vw;
+  z-index:-1;
 }
 
 .partners{
 height:auto;
-  width:15vw;
+  width:10vw;
 }
 
 .hr-partners{
@@ -238,7 +240,7 @@ height:auto;
 }
 
 .h3-partners{
-font-size:2.5rem;
+font-size:2rem;
   margin-bottom:7vw;
 /*     margin-right:10vw; */
 
@@ -250,7 +252,7 @@ padding:3% 5%;
 
 .brain{
 height:auto;
-  width:10vw;
+  width:7vw;
   position:relative;
   bottom:3vw;
 }
