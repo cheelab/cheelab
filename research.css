@@ -222,7 +222,7 @@ z-index:6;
 .partners-container{
 position:absolute;
 top:70vw;
-  left:16vw;
+  left:18vw;
   z-index:-1;
 }
 
@@ -233,7 +233,7 @@ height:auto;
 
 .hr-partners{
   position:relative;
-  margin-left:1vw;
+  margin-left:0;
 	margin-right:1vw;
   margin-bottom:4vw;
 /*   right:2vw; */
