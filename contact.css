@@ -2,8 +2,9 @@ html,body{
 	padding-top: 4vw;
   margin:0;
   overflow-x:hidden;
-font-family: 'Raleway', sans-serif;
-  
+/* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -46,13 +47,14 @@ margin-bottom:0;
 }
 
 h2{
+  font-family: 'Raleway', sans-serif;
  /* font-size:2.2em;*/
 font-size:2.5rem;
   padding-top:4%;
   padding-bottom:3.5%;
 /*   font-weight:bold; */
 }
- p{
+ .contact p{
  
   font-size:1rem;
 
@@ -120,7 +122,7 @@ h5{
    background-color:#ff4c68 
 }
 
-a{
+/* a{
  color:white; 
 }
 
@@ -139,7 +141,7 @@ a:link{
 text-decoration:none;
 color:black;
 
-}
+} */
 
 .pos{
 
@@ -164,7 +166,29 @@ color:black;
 width:70%;
 }
 
+ a{
+ color:black; 
+}
+
+p a:hover{
+  cursor: pointer;
+text-decoration:underline !important ;
+   
+color:#e31936 !important;
+}
+
+p a:visited{
+	text-decoration:underline !important;
+}
+
+p a:link{
+text-decoration:none;
+color:black;
+
+}
+
 .apply{
+  font-family: 'Roboto', sans-serif;
   position:relative;
   left:8%;
   margin:1%;
@@ -173,9 +197,17 @@ width:70%;
   transition: box-shadow 0.3s ease-in-out;
 background-color:#ededed; 
   text-align:center;
-font-family: 'Roboto', sans-serif;
+
 }
 
+.pp{
+  position:relative;
+top:0.9vw;
+}
+.apply-p{
+  font-family: 'Roboto', sans-serif;
+padding:1%;
+}
 .apply:hover{
 box-shadow: 0 5px 25px rgba(0,0,0,0.3);
 }
